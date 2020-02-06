@@ -13,7 +13,6 @@ class App {
             res.status(404).send({ error: `path doesn't exist`});
         });
     }
-
 }
 
 export default new App().express;
