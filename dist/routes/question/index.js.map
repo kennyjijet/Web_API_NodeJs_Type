@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/routes/question/index.ts"],"names":[],"mappings":";;;;;AAAA,sDAA8B;AAC9B,oCAAoC;AACpC,4CAA4C;AAC5C,kCAAkC;AAElC,IAAI,GAAG,GAAG,iBAAO,EAAE,CAAC;AACpB,GAAG,CAAC,GAAG,CAAC,GAAG,EAAE,UAAU,GAAG,EAAE,GAAG;IAC7B,GAAG,CAAC,IAAI,CACN;QACE,IAAI,EAAC,MAAM;KAEZ,CACF,CAAC;AACJ,CAAC,CAAC,CAAC;AAEH,kBAAe,GAAG,CAAC"}
