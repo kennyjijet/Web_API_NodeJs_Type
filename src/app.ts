@@ -1,4 +1,4 @@
-import express from 'express';
+import express, {Request, Response} from 'express';
 import routers from './routes';
 
 class App {
@@ -9,7 +9,7 @@ class App {
     }
     private routes(): void {
         this.express.use('/test', routers);
-        this.express.use('/', (req, res) => {
+        this.express.use('/', (req : Request, res: Response) => {
             res.status(404).send({ error: `path doesn't exist`});
         });
     }

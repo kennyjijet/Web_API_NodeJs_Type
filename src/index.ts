@@ -14,7 +14,6 @@ class Server {
         } else {
             return  this.serverInstance;
         }
-
     }
 
     public constructor() {
@@ -33,7 +32,7 @@ class Server {
         
         this.server.on('listening', () => {
             let address = this.server.address();
-            console.log("Server is running at " + `port ${address.port}`);
+            console.log("Server is running at localhost " + `port ${address.port}`);
         });
 
         this.server.on('error', (error: NodeJS.ErrnoException) => {
