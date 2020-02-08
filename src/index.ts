@@ -7,7 +7,7 @@ class Server {
     private server: any;
     private port: number;
 
-    public static bootstrap(): Server {
+    public static bootstrap () : Server {
         if (!this.serverInstance) {
             this.serverInstance = new Server();
             return this.serverInstance;
@@ -16,17 +16,17 @@ class Server {
         }
     }
 
-    public constructor() {
+    public constructor () {
         this.runServer();
     }
 
-    private runServer(): void {
+    private runServer () : void {
         this.port = 3000;
         App.set('port', this.port);
         this.createServer();
     }
 
-    private createServer() {
+    private createServer () {
         this.server = http.createServer(App);
         this.server.listen(this.port);
         
